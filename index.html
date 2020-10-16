@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>PopUp</title>
+</head>
+
+<body>
+  <button class="show-popup">ShowPopup</button>
+  <div class="popup-wrapper hide">
+    <div class="popup">
+      <div class="close close--cross">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+          <polygon points="11.387,490 245,255.832 478.613,490 489.439,479.174 255.809,244.996 489.439,10.811 478.613,0 245,234.161 
+    11.387,0 0.561,10.811 234.191,244.996 0.561,479.174 " />
+        </svg>
+      </div>
+      <div class="img-head">
+        <img src="/img/popup_header_340.png" alt="Privacy"
+          srcset="/img/popup_header_340.png 340w, /img/popup_header_650.png 650w, /img/popup_header_340.png 960w"
+          sizes="(min-width:1024px) 33vw, 100vw">
+      </div>
+
+      <div class="popup-content">
+
+        <div class="main">
+          <h2 class="h2">Hi there!</h2>
+          <div class="description">We need same more information from you in order to process</div>
+          <div class="action">
+            <div class="action-header">Are you based in European Union?</div>
+            <form>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="imfrom-eu" id="imfrom-eu" value="imfrom-eu">
+                <label class="form-check-label" for="imfrom-eu">Yes, i'm</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="imnotfrom-eu" id="imnotfrom-eu" value="imnotfrom-eu">
+                <label class="form-check-label" for="imnotfrom-eu">No, i'm not</label>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="eu-disclamer">
+          <h2 class="h2">EU STE Privacy notice</h2>
+          <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book.</div>
+          <div class="action">
+            <form>
+              <input class="form-check-input apruv" type="radio" name="exampleRadios" id="exampleRadios2"
+                value="option2">
+              <label class="form-check-label" for="exampleRadios2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book.</label>
+              <button type="button" class="btn btn-rose">Confirm</button>
+            </form>
+          </div>
+
+        </div>
+        <div class="noneu-disclamer">
+          <h2 class="h2">General STE Privacy notice</h2>
+          <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book.</div>
+          <div class="action">
+            <form>
+              <input class="form-check-input apruv" type="radio" name="exampleRadios" id="exampleRadios2"
+                value="option2">
+              <label class="form-check-label" for="exampleRadios2">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book.</label>
+              <button type="button" class="btn btn-rose">Confirm</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
